@@ -706,6 +706,7 @@ img {
     flex-direction: column;
     padding-left: 16px;
     padding-top: 72px;
+    z-index: 9999999;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -714,6 +715,9 @@ img {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+  }
+  .manu-window-all {
+    display: none;
   }
   .nav-window {
     display: flex;
@@ -876,10 +880,13 @@ img {
   .link-manu-hero {
     display: none;
   }
-  .manu-window {
+  .manu-window-all {
     display: flex;
     flex-direction: row;
     align-items: center;
+  }
+  .manu-window {
+    display: none;
   }
   .container-address {
     margin-left: 120px;
