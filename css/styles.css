@@ -100,9 +100,7 @@ img {
   padding-bottom: 16px;
   padding-right: 16px;
 }
-.manu-window-all {
-  display: none;
-}
+
 .nav-window {
   display: flex;
   flex-direction: column;
@@ -110,8 +108,11 @@ img {
 .container-menu {
   display: flex;
   gap: 40px;
-  margin-bottom: 168px;
+  padding-bottom: 168px;
   flex-direction: column;
+}
+.manu-window-all {
+  display: none;
 }
 .container-menu-items {
   color: #2e2f42;
