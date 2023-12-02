@@ -828,7 +828,7 @@ img {
     display: none;
   }
   .container-menu {
-    margin-bottom: 0;
+    padding-bottom: 0;
     flex-direction: row;
   }
   .container-address {
@@ -1010,7 +1010,7 @@ img {
     align-items: center;
   }
   .container-menu {
-    margin-bottom: 0;
+    padding-bottom: 0;
     flex-direction: row;
   }
   .current {
