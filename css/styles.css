@@ -223,6 +223,7 @@ img {
   display: flex;
   flex-direction: column;
   row-gap: 72px;
+  justify-content: center;
 }
 .main-content-text-items {
   display: flex;
@@ -1134,11 +1135,10 @@ img {
     line-height: 1.2em;
     letter-spacing: 0.02em;
   }
-  .container-text {
-    font-weight: 400;
-  }
+
   .text-tablet {
     text-align: start;
+    font-weight: 400;
   }
   /* section-3 */
 
